@@ -1,0 +1,9 @@
+# Local baked outputs -- often derivatives of proprietary fonts, do not publish.
+# The repo shares the script (hint_bake.py), not the fonts.
+*-baked-*.ttf
+*-Baked-*.ttf
+
+# macOS / Python noise
+.DS_Store
+__pycache__/
+*.pyc
